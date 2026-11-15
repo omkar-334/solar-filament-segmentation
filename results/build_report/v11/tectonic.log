@@ -4,8 +4,8 @@ note: warnings were issued by BibTeX; use --print and/or --keep-logs for details
 note: Rerunning TeX because bibtex was run ...
 note: Rerunning TeX because "main.aux" changed ...
 note: Running xdvipdfmx ...
+note: Writing `main.pdf` (241.9140625 KiB)
 note: Writing `main.blg` (796 B)
-note: Writing `main.pdf` (242.7939453125 KiB)
 note: Skipped writing 4 intermediate files (use --keep-intermediates to keep them)
 warning: libertine.sty:308: 
 Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
@@ -196,9 +196,9 @@ warning: main.tex:99: Overfull \hbox (18.14055pt too wide) in paragraph at lines
 warning: main.tex:111: Underfull \hbox (badness 3690) in paragraph at lines 111--111
 warning: main.tex:155: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
 warning: main.tex:155: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
-warning: main.tex:160: Overfull \hbox (11.22025pt too wide) in paragraph at lines 159--160
 warning: main.tex:164: Overfull \hbox (2.62376pt too wide) in paragraph at lines 163--164
-warning: main.tex:179: Overfull \vbox (2.14198pt too high) has occurred while \output is active
+warning: main.tex:171: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:179: Overfull \vbox (1.96298pt too high) has occurred while \output is active
 warning: libertine.sty:308: 
 Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
 warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT" at 9.00003pt
@@ -388,11 +388,10 @@ warning: main.tex:99: Overfull \hbox (18.14055pt too wide) in paragraph at lines
 warning: main.tex:111: Underfull \hbox (badness 3690) in paragraph at lines 111--111
 warning: main.tex:155: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
 warning: main.tex:155: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
-warning: main.tex:160: Overfull \hbox (11.22025pt too wide) in paragraph at lines 159--160
 warning: main.tex:164: Overfull \hbox (2.62376pt too wide) in paragraph at lines 163--164
+warning: main.tex:171: Underfull \vbox (badness 10000) has occurred while \output is active
 warning: main.bbl:54: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
 warning: main.bbl:60: Underfull \hbox (badness 5490) in paragraph at lines 50--60
-warning: main.tex:179: Overfull \vbox (1.46599pt too high) has occurred while \output is active
 warning: libertine.sty:308: 
 Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
 warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT" at 9.00003pt
@@ -582,9 +581,8 @@ warning: main.tex:99: Overfull \hbox (18.14055pt too wide) in paragraph at lines
 warning: main.tex:111: Underfull \hbox (badness 3690) in paragraph at lines 111--111
 warning: main.tex:155: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
 warning: main.tex:155: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
-warning: main.tex:160: Overfull \hbox (11.22025pt too wide) in paragraph at lines 159--160
 warning: main.tex:164: Overfull \hbox (2.62376pt too wide) in paragraph at lines 163--164
+warning: main.tex:171: Underfull \vbox (badness 10000) has occurred while \output is active
 warning: main.bbl:54: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
 warning: main.bbl:60: Underfull \hbox (badness 5490) in paragraph at lines 50--60
-warning: main.tex:179: Overfull \vbox (1.46599pt too high) has occurred while \output is active
 warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.

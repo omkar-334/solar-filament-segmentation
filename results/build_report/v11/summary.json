@@ -34,32 +34,27 @@
     "M2O": "194",
     "NPRED": "7,736",
     "M2OP": "2.5",
-    "SPEED": "On one GPU the full pipeline takes 11.0~s per 2048$\\times$2048 image (35 minutes for the 180 test images, model loading included). Run from the repository weights in a fresh environment, it reproduces the submitted file: 1,243 of 1,243 submitted instances are matched, with a mean IoU of 0.9983 (741 masks are identical; the rest differ by a few boundary pixels because of GPU arithmetic).",
+    "SPEED": "On one GPU (NVIDIA L40S) the full pipeline takes 11.0~s per 2048$\\times$2048 image (35 minutes for the 180 test images, model loading included). Run from the repository weights in a fresh environment, it reproduces the submitted file: 1,243 of 1,243 submitted instances are matched, with a mean IoU of 0.9983 (741 masks are identical; the rest differ by a few boundary pixels because of GPU arithmetic). The rerun holds 4 additional instances whose keep value lies at the threshold.",
     "SPI": "11.0",
     "DIFF": "0.010",
     "DIFFCI": "0.007 to 0.013"
   },
   "pages": 4,
-  "acknowledgment_page": 3,
+  "acknowledgment_page": 4,
   "warnings": [
     "warning: main.tex:23: Overfull \\hbox (4.09807pt too wide) in paragraph at lines 23--23",
     "warning: main.tex:60: Overfull \\hbox (7.62007pt too wide) in paragraph at lines 59--60",
     "warning: main.tex:99: Overfull \\hbox (18.14055pt too wide) in paragraph at lines 82--99",
-    "warning: main.tex:160: Overfull \\hbox (11.22025pt too wide) in paragraph at lines 159--160",
     "warning: main.tex:164: Overfull \\hbox (2.62376pt too wide) in paragraph at lines 163--164",
-    "warning: main.tex:179: Overfull \\vbox (2.14198pt too high) has occurred while \\output is active",
+    "warning: main.tex:179: Overfull \\vbox (1.96298pt too high) has occurred while \\output is active",
     "warning: main.tex:23: Overfull \\hbox (4.09807pt too wide) in paragraph at lines 23--23",
     "warning: main.tex:60: Overfull \\hbox (7.62007pt too wide) in paragraph at lines 59--60",
     "warning: main.tex:99: Overfull \\hbox (18.14055pt too wide) in paragraph at lines 82--99",
-    "warning: main.tex:160: Overfull \\hbox (11.22025pt too wide) in paragraph at lines 159--160",
     "warning: main.tex:164: Overfull \\hbox (2.62376pt too wide) in paragraph at lines 163--164",
-    "warning: main.tex:179: Overfull \\vbox (1.46599pt too high) has occurred while \\output is active",
     "warning: main.tex:23: Overfull \\hbox (4.09807pt too wide) in paragraph at lines 23--23",
     "warning: main.tex:60: Overfull \\hbox (7.62007pt too wide) in paragraph at lines 59--60",
     "warning: main.tex:99: Overfull \\hbox (18.14055pt too wide) in paragraph at lines 82--99",
-    "warning: main.tex:160: Overfull \\hbox (11.22025pt too wide) in paragraph at lines 159--160",
-    "warning: main.tex:164: Overfull \\hbox (2.62376pt too wide) in paragraph at lines 163--164",
-    "warning: main.tex:179: Overfull \\vbox (1.46599pt too high) has occurred while \\output is active"
+    "warning: main.tex:164: Overfull \\hbox (2.62376pt too wide) in paragraph at lines 163--164"
   ],
-  "seconds": 3.7
+  "seconds": 4.0
 }

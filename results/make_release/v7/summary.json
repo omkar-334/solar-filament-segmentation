@@ -2,12 +2,12 @@
   "version": "v7",
   "out": "release/v7",
   "files": 222,
-  "bytes": 1485299680,
+  "bytes": 1485302126,
   "weight_files": 12,
   "weight_bytes": 1477402174,
   "verified_run_included": true,
   "executed_notebook_included": true,
   "report_included": true,
   "packed": false,
-  "seconds": 0.7
+  "seconds": 1.0
 }

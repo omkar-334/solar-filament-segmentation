@@ -1,13 +1,13 @@
 {
   "version": "v11",
-  "out": "./release/v11",
-  "files": 189,
-  "bytes": 4632724346,
+  "out": "release/v11",
+  "files": 237,
+  "bytes": 4636166469,
   "weight_files": 22,
   "weight_bytes": 4628252524,
-  "verified_run_included": false,
-  "executed_notebook_included": false,
-  "report_included": false,
-  "packed": true,
-  "seconds": 2.4
+  "verified_run_included": true,
+  "executed_notebook_included": true,
+  "report_included": true,
+  "packed": false,
+  "seconds": 2.1
 }
