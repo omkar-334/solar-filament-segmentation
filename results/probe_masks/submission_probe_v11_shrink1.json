@@ -1,0 +1,11 @@
+{
+  "args": {
+    "csv": "submission_rescored_v11_sam2.csv",
+    "px": -1,
+    "out": "submission_probe_v11_shrink1.csv",
+    "images": "MAGFiLO_1.0_Kaggle_2026/test/test_images"
+  },
+  "rows": 1243,
+  "median_area_ratio": 0.744,
+  "kept_unchanged": 1
+}

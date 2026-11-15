@@ -1,0 +1,54 @@
+{
+  "args": {
+    "table": "./table.npz",
+    "per_view": "./per_view.npy",
+    "score": "./oof_score.npy",
+    "tag": "bplus_sc"
+  },
+  "instances": 5753,
+  "table": {
+    "stage1_value": {
+      "best_tau": 0.23,
+      "best_pq": 0.46285457711478273,
+      "tp": 5351,
+      "fp": 2299,
+      "corr_with_y": 0.5556767445763873
+    },
+    "sam_score": {
+      "best_tau": 0.24,
+      "best_pq": 0.4619579674392115,
+      "tp": 5376,
+      "fp": 2361,
+      "corr_with_y": 0.5423952946207292
+    },
+    "mean(stage1, sam)": {
+      "best_tau": 0.24,
+      "best_pq": 0.46441414010497667,
+      "tp": 5403,
+      "fp": 2333,
+      "corr_with_y": 0.5732666248828227
+    },
+    "lgb(stage1 feats + value)": {
+      "best_tau": 0.24,
+      "best_pq": 0.46271747396650087,
+      "tp": 5381,
+      "fp": 2351,
+      "corr_with_y": 0.545424980064062
+    },
+    "lgb(+ sam score)": {
+      "best_tau": 0.22,
+      "best_pq": 0.46230457107042033,
+      "tp": 5456,
+      "fp": 2501,
+      "corr_with_y": 0.5553823491153341
+    },
+    "lgb(+ sam score + stage2 feats)": {
+      "best_tau": 0.25,
+      "best_pq": 0.46301414066266205,
+      "tp": 5326,
+      "fp": 2245,
+      "corr_with_y": 0.560646728153849
+    }
+  },
+  "seconds": 26.5
+}

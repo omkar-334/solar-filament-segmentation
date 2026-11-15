@@ -1,0 +1,13 @@
+% Local stand-in for the template's preamble.tex (same commands, used to compile outside Overleaf).
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\newif\ifguideStyle
+\newcommand{\guide}[1]{\ifguideStyle{\color{gray!65}\itshape #1}\fi}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+\acmConference{}{}{}
+\acmDOI{}
+\acmISBN{}

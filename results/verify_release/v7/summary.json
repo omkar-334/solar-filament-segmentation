@@ -1,0 +1,64 @@
+{
+  "version": "v7",
+  "tar": "/data/release/v7_code.tar.gz",
+  "tar_sha256": "c8fd79da251fb099ff13b20ad763f9c605e506eab15a61b6a97b43b86ec2658c",
+  "steps": {
+    "install": {
+      "seconds": 132.5
+    },
+    "tests": {
+      "returncode": 0,
+      "seconds": 5.2
+    },
+    "predict": {
+      "returncode": 0,
+      "seconds": 276.1
+    },
+    "notebook": {
+      "returncode": 0,
+      "seconds": 15.1
+    }
+  },
+  "weights": {
+    "files": 12,
+    "bytes": 1477402174,
+    "hashes_ok": true
+  },
+  "container_workaround": "no libGL in this container: opencv-python-headless==4.12.0.88 installed over opencv-python==4.12.0.88",
+  "predict": {
+    "args": {
+      "images": "/data/raw/MAGFiLO_1.0_Kaggle_2026/test/test_images",
+      "weights": "weights",
+      "out": "submission_repro.csv",
+      "compare": "submission.csv",
+      "tag": "repro",
+      "limit": 0,
+      "version": "auto"
+    },
+    "version": "v7",
+    "device": "cuda",
+    "images": 180,
+    "rows": 1216,
+    "seconds": 272.7,
+    "seconds_per_image": 0.98,
+    "compare": {
+      "reference_rows": 1214,
+      "matched_iou_gt_0.5": 1214,
+      "identical_masks": 1091,
+      "mean_iou_of_matched": 0.9995185035988415,
+      "images_with_same_count": 178
+    }
+  },
+  "notebook": {
+    "notebook": "notebooks/solar_filament_pipeline.ipynb",
+    "version": "v7",
+    "cells": 13,
+    "executed": true,
+    "error_outputs": 0,
+    "bytes": 2190671,
+    "seconds": 14.9
+  },
+  "gpu": "NVIDIA L40S",
+  "seconds": 430.9,
+  "ok": true
+}

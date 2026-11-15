@@ -1,0 +1,34 @@
+{
+  "images_with_multiple_views": 296,
+  "views_per_image_histogram": {
+    "2": 145,
+    "3": 151
+  },
+  "ordered_pairs": 1196,
+  "pairwise_pq": {
+    "tp": 4288,
+    "fp": 3709,
+    "fn": 3711,
+    "sum_iou": 2716.8394796098287,
+    "pq_ratio_of_sums": 0.3396898574155825,
+    "pq_mean_per_view": 0.3407676992745108
+  },
+  "sq_pairwise": 0.6335912965507996,
+  "oracle_best_view_pq": {
+    "tp": 1714,
+    "fp": 1147,
+    "fn": 1355,
+    "sum_iou": 1088.2067687471051,
+    "pq_ratio_of_sums": 0.36701745994843343,
+    "pq_mean_per_view": 0.3696132034087346
+  },
+  "oracle_worst_view_pq": {
+    "tp": 1490,
+    "fp": 1561,
+    "fn": 1475,
+    "sum_iou": 945.0509546487081,
+    "pq_ratio_of_sums": 0.31417917375289495,
+    "pq_mean_per_view": 0.30829024648134934
+  },
+  "seconds": 28.5
+}

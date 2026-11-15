@@ -1,0 +1,85 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/omkar-334/main/ap-yhDspffVx2rkslGtFOPnvS
+✓ Created objects.
+├── ✓ Uploaded ./modal_app.py
+├── ✓ Uploaded ./scripts
+├── ✓ Uploaded ./src
+├── ✓ Created Function detector_instance_validation_job.
+├── ✓ Created Function ijepa_train_job.
+├── ✓ Created Function validation_sweep_job.
+├── ✓ Created Function detector_train_job.
+├── ✓ Created Function train_job.
+├── ✓ Created Function detector_submission_job.
+├── ✓ Created Function inference_job.
+├── ✓ Created Function crop_refiner_train_job.
+├── ✓ Created Function crop_refiner_validation_job.
+├── ✓ Created Function crop_refiner_submission_job.
+├── ✓ Created Function rfdetr_seg_train_job.
+├── ✓ Created Function lab_script_job.
+├── ✓ Created Function oof_refiner_pipeline_job.
+├── ✓ Created Function postproc_lab_job.
+├── ✓ Created Function detector_fusion_validation_job.
+├── ✓ Created Function oof_detector_proposal_job.
+├── ✓ Created Function validation_diagnostics_job.
+├── ✓ Created Function dump_proposals_job.
+├── ✓ Created Function rfdetr_seg_validation_job.
+├── ✓ Created Function final_model_job.
+├── ✓ Created Function soft_refiner_experiment_job.
+├── ✓ Created Function kfold_fold_job.
+├── ✓ Created Function full_data_pipeline_job.
+├── ✓ Created Function kfold_detector_job.
+├── ✓ Created Function unet_family_job.
+├── ✓ Created Function rescored_submission_job.
+├── ✓ Created Function cnn_rescorer_job.
+├── ✓ Created Function kfold_all_job.
+├── ✓ Created Function insample_proposals_job.
+├── ✓ Created Function refiner_variant_job.
+└── ✓ Created Function unet_prob_job.
+Detached script call ID: fc-01M752AZAK3PMWTQ2N8DX5TYPZ
+[modal-client] 2026-11-11T15:57:07+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/omkar-334/main/ap-yhDspffVx2rkslGtFOPnvS
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/omkar-334/main/ap-Cha7fK9DRfT1z6Ruuq7KHl
+✓ Created objects.
+├── ✓ Uploaded ./modal_app.py
+├── ✓ Uploaded ./scripts
+├── ✓ Uploaded ./src
+├── ✓ Created Function train_job.
+├── ✓ Created Function detector_instance_validation_job.
+├── ✓ Created Function inference_job.
+├── ✓ Created Function detector_train_job.
+├── ✓ Created Function oof_detector_proposal_job.
+├── ✓ Created Function detector_fusion_validation_job.
+├── ✓ Created Function detector_submission_job.
+├── ✓ Created Function validation_diagnostics_job.
+├── ✓ Created Function crop_refiner_train_job.
+├── ✓ Created Function crop_refiner_validation_job.
+├── ✓ Created Function crop_refiner_submission_job.
+├── ✓ Created Function oof_refiner_pipeline_job.
+├── ✓ Created Function dump_proposals_job.
+├── ✓ Created Function full_data_pipeline_job.
+├── ✓ Created Function soft_refiner_experiment_job.
+├── ✓ Created Function kfold_detector_job.
+├── ✓ Created Function kfold_fold_job.
+├── ✓ Created Function kfold_all_job.
+├── ✓ Created Function insample_proposals_job.
+├── ✓ Created Function final_model_job.
+├── ✓ Created Function unet_prob_job.
+├── ✓ Created Function unet_family_job.
+├── ✓ Created Function refiner_variant_job.
+├── ✓ Created Function lab_script_job.
+├── ✓ Created Function postproc_lab_job.
+├── ✓ Created Function rescored_submission_job.
+├── ✓ Created Function cnn_rescorer_job.
+├── ✓ Created Function rfdetr_seg_train_job.
+├── ✓ Created Function rfdetr_seg_validation_job.
+├── ✓ Created Function ijepa_train_job.
+└── ✓ Created Function validation_sweep_job.
+Detached script call ID: fc-01M752BFEEXDWVG59FB036P4QN
+[modal-client] 2026-11-11T15:57:23+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/omkar-334/main/ap-Cha7fK9DRfT1z6Ruuq7KHl
+Wed Nov 11 15:57:24 IST 2026 launched variant labs

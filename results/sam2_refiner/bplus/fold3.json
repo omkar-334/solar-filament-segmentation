@@ -1,0 +1,18 @@
+{
+  "args": {
+    "crops": "/data/runs/stage2_crops.npz",
+    "fold": 3,
+    "model": "facebook/sam2.1-hiera-base-plus",
+    "epochs": 8,
+    "bs": 8,
+    "lr": 3e-05,
+    "limit": 0,
+    "tag": "bplus",
+    "merge": false
+  },
+  "train": 3695,
+  "val": 1197,
+  "soft_dice_sam2": 0.7452096939086914,
+  "soft_dice_seed": 0.772388219833374,
+  "seconds": 1412.3
+}

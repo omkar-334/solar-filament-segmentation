@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.ipynb_checkpoints/
+MAGFiLO_1.0_Kaggle_2026/
+submission_repro.csv

@@ -1,0 +1,112 @@
+{
+  "detector_1024.pt": {
+    "source": "/data/runs/full707_yolo11s_s43_lr002/train/weights/last.pt",
+    "bytes": 20596708,
+    "sha256": "4f0bd1bb964d5aaf39a838a56259ce225f0b596d5592adb8dcfc5d6643aa152e"
+  },
+  "detector_1536.pt": {
+    "source": "/data/runs/final707_1536_det/train/weights/last.pt",
+    "bytes": 20761956,
+    "sha256": "4a9f1fb0b984b359d1161f908b2a6d4e5d2dbda373131be1660842d7681592b4"
+  },
+  "refiner_r18_1024.pt": {
+    "source": "/data/runs/final707_refiner/last.pt",
+    "bytes": 171004095,
+    "sha256": "4d677b6c9021fc6a57ba6bcc2eef9fdf00ed7e778226cf0569b12c3801e3c3f9"
+  },
+  "refiner_r34c384_1024.pt": {
+    "source": "/data/runs/final707_refiner_r34c384/last.pt",
+    "bytes": 292391887,
+    "sha256": "12748f750bd4eeeb5f66559d545663fbd395e244399efd04e293c62cc46a8968"
+  },
+  "refiner_r18_1536.pt": {
+    "source": "/data/runs/final707_1536_refiner/last.pt",
+    "bytes": 171004159,
+    "sha256": "ede8b4dbb8fdd8e5ef66cf82532d0d93dd3cb26359d6021435b5d6a7ea461597"
+  },
+  "unet_dense.pt": {
+    "source": "/data/runs/unet_full707/last.pt",
+    "bytes": 313321371,
+    "sha256": "7023a7504976410af1c95c7e48d1a6cac073f65acff0ca26d27d2e2d131706c9"
+  },
+  "selector.txt": {
+    "source": "/data/results/postproc_lab/dump_kf5b_fold0_x5_avg384_pool1536/rescorer_thr0.65.txt",
+    "bytes": 452303,
+    "sha256": "f3336ac51e132fe58978a497084272589ac0eacb3721baa0744286b67f1e1b2c"
+  },
+  "sam_bplus_fold0.pt": {
+    "source": "/data/runs/sam2_bplus_fold0.pt",
+    "bytes": 146816280,
+    "sha256": "5d13579108e2a7a7de413c7c8dd14897c9cfb5386acc667fd4a8c86c422815b2"
+  },
+  "sam_bplus_fold1.pt": {
+    "source": "/data/runs/sam2_bplus_fold1.pt",
+    "bytes": 146816280,
+    "sha256": "84d0a0a082f101aab9f6df4128e4a0169c21988a55c4b676ec9780de4f2beb62"
+  },
+  "sam_bplus_fold2.pt": {
+    "source": "/data/runs/sam2_bplus_fold2.pt",
+    "bytes": 146816280,
+    "sha256": "7f1cccfd8ad38f0db32339063c9fa5562ae77727b8e2d3fa1b6b1edf50740caf"
+  },
+  "sam_bplus_fold3.pt": {
+    "source": "/data/runs/sam2_bplus_fold3.pt",
+    "bytes": 146816280,
+    "sha256": "5da3513b979b90a75185972c2f8a90fdbfa8f65baea15ccd89b0605791a35e8c"
+  },
+  "sam_bplus_fold4.pt": {
+    "source": "/data/runs/sam2_bplus_fold4.pt",
+    "bytes": 146816280,
+    "sha256": "68f9019d93e93a8d27f54e1c961529b3009c26af0de8e5fbc90629cfbf138d63"
+  },
+  "sam_large_fold0.pt": {
+    "source": "/data/runs/sam2_large_fold0.pt",
+    "bytes": 434110072,
+    "sha256": "8801b7b7947c948bb6d46f79607fb1b33d35499c7e2e5b7faa3b1fc13bb92b74"
+  },
+  "sam_large_fold1.pt": {
+    "source": "/data/runs/sam2_large_fold1.pt",
+    "bytes": 434110072,
+    "sha256": "e89b022963d17146ab4dad77ced1c6b7b6bec660d1976a2b9d066cc13bda78b8"
+  },
+  "sam_large_fold2.pt": {
+    "source": "/data/runs/sam2_large_fold2.pt",
+    "bytes": 434110072,
+    "sha256": "45164c7b459cd532e669befbe689ba0c5f5e06de6376ed0fafb5816cbd88f8e1"
+  },
+  "sam_large_fold3.pt": {
+    "source": "/data/runs/sam2_large_fold3.pt",
+    "bytes": 434110072,
+    "sha256": "f169379de676adab095435839fd39c48bf1b2a3fb6309ce279ddd2eb239bcbc7"
+  },
+  "sam_large_fold4.pt": {
+    "source": "/data/runs/sam2_large_fold4.pt",
+    "bytes": 434110072,
+    "sha256": "4954b8783e1cab05b5c43e7e7d245ad2340be80bcd156ae4db8778a232ef4cc0"
+  },
+  "sam_score_fold0.pt": {
+    "source": "/data/runs/sam2_bplus_sc_fold0.pt",
+    "bytes": 146817657,
+    "sha256": "e54144d661c71badc2c7a561fa8f3ba261d63a01ed049071f2d495f71b96d9b7"
+  },
+  "sam_score_fold1.pt": {
+    "source": "/data/runs/sam2_bplus_sc_fold1.pt",
+    "bytes": 146817657,
+    "sha256": "969b391672316ed113de6aab91b8adcc72d376869997274e7fbb6362e0586dbb"
+  },
+  "sam_score_fold2.pt": {
+    "source": "/data/runs/sam2_bplus_sc_fold2.pt",
+    "bytes": 146817657,
+    "sha256": "4f58b5a1837af8374ca5daaf4168534013fc29e0f18b24303200b183958ceacf"
+  },
+  "sam_score_fold3.pt": {
+    "source": "/data/runs/sam2_bplus_sc_fold3.pt",
+    "bytes": 146817657,
+    "sha256": "c623c44d30e6edbf9293e51b57020abe32018b96c429cb5bc38da1430dc8c1eb"
+  },
+  "sam_score_fold4.pt": {
+    "source": "/data/runs/sam2_bplus_sc_fold4.pt",
+    "bytes": 146817657,
+    "sha256": "f05de18d37022d7d9498d14f998b5944eed636cf65e8adb71598b9f9d27e7d7d"
+  }
+}

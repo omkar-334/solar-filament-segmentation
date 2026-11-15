@@ -1,0 +1,21 @@
+{
+  "args": {
+    "csv": "/data/runs/rescored_v6_pool1536/submission.csv",
+    "pred": "/data/runs/rescored_v6_pool1536/submission_pred.json",
+    "models": "/data/runs/stage2_v6_fold0.pt,/data/runs/stage2_v6_fold1.pt,/data/runs/stage2_v6_fold2.pt,/data/runs/stage2_v6_fold3.pt,/data/runs/stage2_v6_fold4.pt",
+    "out": "/data/runs/rescored_v7_stage2/submission.csv",
+    "unet": "/data/runs/unet_prob_test",
+    "t": 0.4,
+    "workers": 14,
+    "tag": "v7"
+  },
+  "images": 178,
+  "rows_in": 1214,
+  "rows_out": 1214,
+  "stage2_used": 1214,
+  "stage1_kept": 0,
+  "mean_iou_with_stage1": 0.9276473877236386,
+  "share_iou_below_0.5": 0.0,
+  "area_ratio_median": 1.0506829579122288,
+  "seconds": 78.2
+}

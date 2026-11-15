@@ -1,0 +1,22 @@
+{
+  "args": {
+    "images": "/data/raw/MAGFiLO_1.0_Kaggle_2026/test/test_images",
+    "weights": "/data/weights_v7",
+    "out": "/data/runs/repro_v7/submission.csv",
+    "compare": "/data/runs/rescored_v7_stage2/submission.csv",
+    "tag": "v7_repro",
+    "limit": 0
+  },
+  "device": "cuda",
+  "images": 180,
+  "rows": 1214,
+  "seconds": 292.4,
+  "seconds_per_image": 1.24,
+  "compare": {
+    "reference_rows": 1214,
+    "matched_iou_gt_0.5": 1214,
+    "identical_masks": 1190,
+    "mean_iou_of_matched": 0.9998841803485852,
+    "images_with_same_count": 180
+  }
+}

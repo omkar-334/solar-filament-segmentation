@@ -1,0 +1,126 @@
+Wed Nov 11 14:38:31 IST 2026 v3 tau=0.24
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/omkar-334/main/ap-3GOb2gmtf6Tpw4pSJo8YaS
+✓ Created objects.
+├── ✓ Uploaded ./modal_app.py
+├── ✓ Uploaded ./scripts
+├── ✓ Uploaded ./src
+├── ✓ Created Function ijepa_train_job.
+├── ✓ Created Function validation_sweep_job.
+├── ✓ Created Function rfdetr_seg_train_job.
+├── ✓ Created Function rfdetr_seg_validation_job.
+├── ✓ Created Function train_job.
+├── ✓ Created Function detector_instance_validation_job.
+├── ✓ Created Function inference_job.
+├── ✓ Created Function detector_train_job.
+├── ✓ Created Function oof_detector_proposal_job.
+├── ✓ Created Function detector_fusion_validation_job.
+├── ✓ Created Function detector_submission_job.
+├── ✓ Created Function validation_diagnostics_job.
+├── ✓ Created Function crop_refiner_train_job.
+├── ✓ Created Function crop_refiner_validation_job.
+├── ✓ Created Function crop_refiner_submission_job.
+├── ✓ Created Function oof_refiner_pipeline_job.
+├── ✓ Created Function dump_proposals_job.
+├── ✓ Created Function full_data_pipeline_job.
+├── ✓ Created Function soft_refiner_experiment_job.
+├── ✓ Created Function kfold_detector_job.
+├── ✓ Created Function kfold_fold_job.
+├── ✓ Created Function kfold_all_job.
+├── ✓ Created Function insample_proposals_job.
+├── ✓ Created Function final_model_job.
+├── ✓ Created Function unet_prob_job.
+├── ✓ Created Function unet_family_job.
+├── ✓ Created Function lab_script_job.
+├── ✓ Created Function postproc_lab_job.
+├── ✓ Created Function rescored_submission_job.
+└── ✓ Created Function cnn_rescorer_job.
+Detached rescored submission call ID: fc-01M74XVK34GDCGGABJVTMMZR5M
+[modal-client] 2026-11-11T14:38:49+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/omkar-334/main/ap-3GOb2gmtf6Tpw4pSJo8YaS
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/omkar-334/main/ap-2XPVOKLIqooq7zYTDXLlvQ
+✓ Created objects.
+├── ✓ Uploaded ./modal_app.py
+├── ✓ Uploaded ./scripts
+├── ✓ Uploaded ./src
+├── ✓ Created Function train_job.
+├── ✓ Created Function detector_instance_validation_job.
+├── ✓ Created Function inference_job.
+├── ✓ Created Function detector_train_job.
+├── ✓ Created Function oof_detector_proposal_job.
+├── ✓ Created Function detector_fusion_validation_job.
+├── ✓ Created Function detector_submission_job.
+├── ✓ Created Function validation_diagnostics_job.
+├── ✓ Created Function crop_refiner_train_job.
+├── ✓ Created Function crop_refiner_validation_job.
+├── ✓ Created Function crop_refiner_submission_job.
+├── ✓ Created Function oof_refiner_pipeline_job.
+├── ✓ Created Function dump_proposals_job.
+├── ✓ Created Function full_data_pipeline_job.
+├── ✓ Created Function soft_refiner_experiment_job.
+├── ✓ Created Function kfold_detector_job.
+├── ✓ Created Function kfold_fold_job.
+├── ✓ Created Function kfold_all_job.
+├── ✓ Created Function insample_proposals_job.
+├── ✓ Created Function final_model_job.
+├── ✓ Created Function unet_prob_job.
+├── ✓ Created Function unet_family_job.
+├── ✓ Created Function ijepa_train_job.
+├── ✓ Created Function validation_sweep_job.
+├── ✓ Created Function rfdetr_seg_train_job.
+├── ✓ Created Function rfdetr_seg_validation_job.
+├── ✓ Created Function lab_script_job.
+├── ✓ Created Function postproc_lab_job.
+├── ✓ Created Function rescored_submission_job.
+└── ✓ Created Function cnn_rescorer_job.
+Detached script call ID: fc-01M74YH0MQQ85JMRB8D4DHFJH7
+[modal-client] 2026-11-11T14:50:31+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/omkar-334/main/ap-2XPVOKLIqooq7zYTDXLlvQ
+Wed Nov 11 14:50:31 IST 2026 launched U-Net lab
+Wed Nov 11 14:53:44 IST 2026 v4 tau=0.24
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/omkar-334/main/ap-8BlJshyKGgycDxptNPQVlD
+✓ Created objects.
+├── ✓ Uploaded ./modal_app.py
+├── ✓ Uploaded ./scripts
+├── ✓ Uploaded ./src
+├── ✓ Created Function train_job.
+├── ✓ Created Function detector_instance_validation_job.
+├── ✓ Created Function inference_job.
+├── ✓ Created Function detector_train_job.
+├── ✓ Created Function oof_detector_proposal_job.
+├── ✓ Created Function detector_fusion_validation_job.
+├── ✓ Created Function detector_submission_job.
+├── ✓ Created Function validation_diagnostics_job.
+├── ✓ Created Function crop_refiner_train_job.
+├── ✓ Created Function crop_refiner_validation_job.
+├── ✓ Created Function crop_refiner_submission_job.
+├── ✓ Created Function oof_refiner_pipeline_job.
+├── ✓ Created Function dump_proposals_job.
+├── ✓ Created Function full_data_pipeline_job.
+├── ✓ Created Function soft_refiner_experiment_job.
+├── ✓ Created Function kfold_detector_job.
+├── ✓ Created Function kfold_fold_job.
+├── ✓ Created Function kfold_all_job.
+├── ✓ Created Function insample_proposals_job.
+├── ✓ Created Function final_model_job.
+├── ✓ Created Function unet_prob_job.
+├── ✓ Created Function unet_family_job.
+├── ✓ Created Function ijepa_train_job.
+├── ✓ Created Function validation_sweep_job.
+├── ✓ Created Function rfdetr_seg_train_job.
+├── ✓ Created Function rfdetr_seg_validation_job.
+├── ✓ Created Function lab_script_job.
+├── ✓ Created Function postproc_lab_job.
+├── ✓ Created Function rescored_submission_job.
+└── ✓ Created Function cnn_rescorer_job.
+Detached rescored submission call ID: fc-01M74YQD67MZ514QCHAENZE2TH
+[modal-client] 2026-11-11T14:54:00+0530 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/omkar-334/main/ap-8BlJshyKGgycDxptNPQVlD

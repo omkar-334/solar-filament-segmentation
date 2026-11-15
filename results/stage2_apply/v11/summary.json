@@ -1,0 +1,23 @@
+{
+  "args": {
+    "csv": "/data/runs/rescored_v6_floor012/submission.csv",
+    "pred": "/data/runs/rescored_v6_floor012/submission_pred.json",
+    "models": "sam2@/data/runs/sam2_bplus_fold0.pt,sam2@/data/runs/sam2_bplus_fold1.pt,sam2@/data/runs/sam2_bplus_fold2.pt,sam2@/data/runs/sam2_bplus_fold3.pt,sam2@/data/runs/sam2_bplus_fold4.pt,sam2@/data/runs/sam2_large_fold0.pt,sam2@/data/runs/sam2_large_fold1.pt,sam2@/data/runs/sam2_large_fold2.pt,sam2@/data/runs/sam2_large_fold3.pt,sam2@/data/runs/sam2_large_fold4.pt",
+    "out": "/data/runs/rescored_v11_sam2/submission.csv",
+    "unet": "/data/runs/unet_prob_test",
+    "t": 0.4,
+    "workers": 7,
+    "tag": "v11",
+    "score_models": "/data/runs/sam2_bplus_sc_fold0.pt,/data/runs/sam2_bplus_sc_fold1.pt,/data/runs/sam2_bplus_sc_fold2.pt,/data/runs/sam2_bplus_sc_fold3.pt,/data/runs/sam2_bplus_sc_fold4.pt",
+    "select": 0.24
+  },
+  "images": 180,
+  "rows_in": 1489,
+  "rows_out": 1243,
+  "stage2_used": 1489,
+  "stage1_kept": 0,
+  "mean_iou_with_stage1": 0.8642500560788865,
+  "share_iou_below_0.5": 0.000671591672263264,
+  "area_ratio_median": 1.0803443328550932,
+  "seconds": 1429.9
+}

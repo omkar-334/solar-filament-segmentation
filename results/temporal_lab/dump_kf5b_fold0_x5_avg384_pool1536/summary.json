@@ -1,0 +1,109 @@
+{
+  "args": {
+    "dump": "/data/runs/dump_kf5b_fold0,/data/runs/dump_kf5b_fold1,/data/runs/dump_kf5b_fold2,/data/runs/dump_kf5_fold3,/data/runs/dump_kf5_fold4",
+    "lab": "/data/results/postproc_lab/dump_kf5b_fold0_x5_avg384_pool1536",
+    "avg_suffix": "_r34c384",
+    "pool": "/data/runs/dump_kf5_1536_fold0,/data/runs/dump_kf5_1536_fold1,/data/runs/dump_kf5_1536_fold2,/data/runs/dump_kf5_1536_fold3,/data/runs/dump_kf5_1536_fold4",
+    "thr": 0.65,
+    "max_days": 4.0,
+    "max_n": 8,
+    "workers": 30
+  },
+  "images": 707,
+  "candidates": 13230,
+  "table": {
+    "base": {
+      "tau": 0.24,
+      "tp": 5254,
+      "fp": 2251,
+      "fn": 2945,
+      "pq": 0.45960875673886065,
+      "corr": 0.7847194599995346
+    },
+    "base+temporal": {
+      "tau": 0.24,
+      "tp": 5247,
+      "fp": 2227,
+      "fn": 2952,
+      "pq": 0.4598056928107634,
+      "corr": 0.7853041212640249
+    },
+    "base+coverage_only": {
+      "tau": 0.22,
+      "tp": 5358,
+      "fp": 2435,
+      "fn": 2841,
+      "pq": 0.4595008598172289,
+      "corr": 0.7844398862386665
+    },
+    "temporal_only": {
+      "tau": 0.16,
+      "tp": 4947,
+      "fp": 8345,
+      "fn": 3252,
+      "pq": 0.31368691106978497,
+      "corr": 0.4169090332161147
+    }
+  },
+  "feature_means": {
+    "cov_max": {
+      "matched": 0.35112398862838745,
+      "unmatched": 0.2731681168079376
+    },
+    "cov_wmean": {
+      "matched": 0.24414889514446259,
+      "unmatched": 0.16951987147331238
+    },
+    "cov_nearest": {
+      "matched": 0.2911566197872162,
+      "unmatched": 0.19580698013305664
+    },
+    "iou_max": {
+      "matched": 0.11841671168804169,
+      "unmatched": 0.03455484285950661
+    },
+    "iou_wmean": {
+      "matched": 0.07955227792263031,
+      "unmatched": 0.020152028650045395
+    },
+    "hit_share": {
+      "matched": 0.2951221764087677,
+      "unmatched": 0.20930159091949463
+    },
+    "n_views": {
+      "matched": 2.9234859943389893,
+      "unmatched": 3.068845510482788
+    },
+    "min_dt": {
+      "matched": 2.70707106590271,
+      "unmatched": 2.5687503814697266
+    },
+    "nb_density": {
+      "matched": 6.939510822296143,
+      "unmatched": 7.037574768066406
+    }
+  },
+  "candidates_without_neighbour": 0.16039304610733182,
+  "temporal_gain": {
+    "nb_density": 100.6,
+    "min_dt": 98.9,
+    "n_views": 56.9,
+    "iou_wmean": 55.1,
+    "iou_max": 43.5,
+    "cov_max": 28.7,
+    "cov_wmean": 28.3,
+    "cov_nearest": 14.6,
+    "hit_share": 12.5
+  },
+  "top_gain": {
+    "x16": 6195.7,
+    "x0": 2976.8,
+    "x14": 482.1,
+    "x3": 305.0,
+    "x11": 199.5,
+    "x1": 196.3,
+    "x8": 156.0,
+    "x13": 140.5
+  },
+  "seconds": 27.7
+}

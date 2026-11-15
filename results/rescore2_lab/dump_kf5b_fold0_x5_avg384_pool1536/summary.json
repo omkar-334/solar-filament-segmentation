@@ -1,0 +1,105 @@
+{
+  "args": {
+    "dump": "/data/runs/dump_kf5b_fold0,/data/runs/dump_kf5b_fold1,/data/runs/dump_kf5b_fold2,/data/runs/dump_kf5_fold3,/data/runs/dump_kf5_fold4",
+    "lab": "/data/results/postproc_lab/dump_kf5b_fold0_x5_avg384_pool1536",
+    "stage2": "/data/results/stage2_refiner/v6/oof_probs.npz",
+    "avg_suffix": "_r34c384",
+    "pool": "/data/runs/dump_kf5_1536_fold0,/data/runs/dump_kf5_1536_fold1,/data/runs/dump_kf5_1536_fold2,/data/runs/dump_kf5_1536_fold3,/data/runs/dump_kf5_1536_fold4",
+    "thr": 0.65,
+    "t": 0.4,
+    "floor": 0.12,
+    "workers": 30
+  },
+  "images": 707,
+  "instances": 5753,
+  "table": {
+    "stage1_value": {
+      "tau": 0.22,
+      "tp": 5399,
+      "fp": 2387,
+      "fn": 2800,
+      "pq": 0.46275213223922756,
+      "corr": 0.5556767445763872,
+      "at_0.24": {
+        "tau": 0.24,
+        "tp": 5294,
+        "fp": 2211,
+        "fn": 2905,
+        "pq": 0.46252634153082706
+      }
+    },
+    "refit_stage1_features": {
+      "tau": 0.26,
+      "tp": 5234,
+      "fp": 2124,
+      "fn": 2965,
+      "pq": 0.46177017960680855,
+      "corr": 0.5498064101052336,
+      "at_0.24": {
+        "tau": 0.24,
+        "tp": 5326,
+        "fp": 2297,
+        "fn": 2873,
+        "pq": 0.4614606098019709
+      }
+    },
+    "stage1+value": {
+      "tau": 0.24,
+      "tp": 5369,
+      "fp": 2360,
+      "fn": 2830,
+      "pq": 0.46178957524727415,
+      "corr": 0.544513397037055,
+      "at_0.24": {
+        "tau": 0.24,
+        "tp": 5369,
+        "fp": 2360,
+        "fn": 2830,
+        "pq": 0.46178957524727415
+      }
+    },
+    "stage1+stage2_features": {
+      "tau": 0.24,
+      "tp": 5360,
+      "fp": 2314,
+      "fn": 2839,
+      "pq": 0.4628779536439995,
+      "corr": 0.5489811005346713,
+      "at_0.24": {
+        "tau": 0.24,
+        "tp": 5360,
+        "fp": 2314,
+        "fn": 2839,
+        "pq": 0.4628779536439995
+      }
+    },
+    "stage2_features_only": {
+      "tau": 0.24,
+      "tp": 5342,
+      "fp": 2316,
+      "fn": 2857,
+      "pq": 0.4619856639415954,
+      "corr": 0.5478315010610684,
+      "at_0.24": {
+        "tau": 0.24,
+        "tp": 5342,
+        "fp": 2316,
+        "fn": 2857,
+        "pq": 0.4619856639415954
+      }
+    }
+  },
+  "gain": {
+    "s1_value": 1987.7,
+    "x0": 545.4,
+    "x8": 142.2,
+    "s2_mean": 133.4,
+    "x3": 125.8,
+    "s2_soft": 112.7,
+    "s2_iou_seed": 110.3,
+    "x11": 100.0,
+    "x13": 91.5,
+    "x6": 87.6
+  },
+  "seconds": 40.2
+}

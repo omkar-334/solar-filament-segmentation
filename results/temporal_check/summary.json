@@ -1,0 +1,8 @@
+{
+  "pairs": 60,
+  "mean_dt_days": 1.6292833333333332,
+  "coverage_forward": 0.2833733333333333,
+  "coverage_static": 0.014633333333333333,
+  "coverage_backward": 0.012145,
+  "seconds": 1.6
+}
