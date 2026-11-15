@@ -45,6 +45,41 @@ Python 3.11 was used. On a minimal Linux image OpenCV needs two system libraries
 
 A heavier variant, version 11 (documented in `experiments/v11/`), replaces stage 2 by fine-tuned SAM 2.1 models. It scores 0.4725 out of fold and is about eleven times slower.
 
+## Links
+
+| What | Link |
+|---|---|
+| Competition | https://www.kaggle.com/competitions/filament-segmentation-2026 |
+| Competition data (MAGFiLO 1.0, Kaggle 2026 split) | https://www.kaggle.com/competitions/filament-segmentation-2026/data |
+| Organisers' self-evaluation notebook | https://www.kaggle.com/code/azimahmadzadeh/self-evaluation-notebook |
+| MAGFiLO dataset paper | https://doi.org/10.1038/s41597-024-03876-y |
+| Data mirror used by the training jobs | `omkar334/solar-filament-segmentation-2026-data` on the Hugging Face Hub. It is a private copy of the competition archive, read by `modal_app.py`. It is not needed to reproduce the predictions; use the Kaggle data page |
+| Index of all experiments | [experiments/README.md](experiments/README.md) |
+| Long-form method report | [experiments/REPORT.md](experiments/REPORT.md) |
+| Dated log of every experiment and trick tried | [experiments/CHANGELOG.md](experiments/CHANGELOG.md) |
+| First-round baselines | [experiments/MODEL_EXPERIMENTS.md](experiments/MODEL_EXPERIMENTS.md) |
+| Literature and public solutions reviewed | [experiments/LITERATURE_REVIEW.md](experiments/LITERATURE_REVIEW.md) |
+| SAM 2.1 variant (v11) | [experiments/v11/](experiments/v11/) |
+| Technical report | [report/report.pdf](report/report.pdf) |
+| Notebook | [notebooks/solar_filament_pipeline.ipynb](notebooks/solar_filament_pipeline.ipynb) |
+
+Scripts, by purpose:
+
+| Purpose | Script |
+|---|---|
+| Predict a folder of images and write the CSV | [scripts/predict.py](scripts/predict.py) |
+| Train detectors, crop refiners and the dense U-Net (GPU jobs) | [modal_app.py](modal_app.py) |
+| Paste rules and selector training | [scripts/postproc_lab.py](scripts/postproc_lab.py) |
+| Stage 2 training and application | [scripts/stage2_refiner.py](scripts/stage2_refiner.py), [scripts/stage2_apply.py](scripts/stage2_apply.py) |
+| SAM 2.1 stage 2 (v11) | [scripts/sam2_refiner.py](scripts/sam2_refiner.py) |
+| Rubric metrics (PQ, Dice, IoU, relations) | [scripts/rubric_metrics.py](scripts/rubric_metrics.py) |
+| Error analysis | [scripts/error_lab.py](scripts/error_lab.py) |
+| Collect the final weights | [scripts/collect_weights.py](scripts/collect_weights.py) |
+| Build and execute the notebook | [scripts/build_notebook.py](scripts/build_notebook.py) |
+| Clean-environment check of this repository | [scripts/verify_release.py](scripts/verify_release.py) |
+
+The full script to log table is in [experiments/README.md](experiments/README.md).
+
 ## Data and rules
 
 Only the training split of the competition data was used for training. No external labels, no public MAGFiLO test labels and no hard-coded predictions were used. Pretrained initialisations are public (COCO YOLO11s-seg, ImageNet ResNets). The images in `demo_images/` are three GONG H-alpha test images of the competition data (MAGFiLO, CC BY-NC 4.0, NSO Integrated Synoptic Program).

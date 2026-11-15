@@ -1,9 +1,7 @@
 path,bytes
 .gitattributes,49
 .gitignore,107
-CHANGELOG.md,33324
-README.md,4027
-REPORT.md,18229
+README.md,4110
 demo_images/20110120105534Ch.jpeg,784000
 demo_images/20110130110334Ch.jpeg,709996
 demo_images/20110214175414Mh.jpeg,685363
@@ -59,8 +57,8 @@ results/kf5/full707_s42.csv,4357
 results/kf5/full707_s43.csv,1472
 results/make_release/v11/files.csv,8554
 results/make_release/v11/summary.json,276
-results/make_release/v7/files.csv,8472
-results/make_release/v7/summary.json,272
+results/make_release/v7/files.csv,10047
+results/make_release/v7/summary.json,270
 results/overlap_lab/dump_kf5b_fold0_x5_avg384/summary.json,3018
 results/overlap_lab/dump_kf5b_fold0_x5_avg384/sweep.csv,5795
 results/pending/yolo11x_oof_refiner_eval.json,6083
